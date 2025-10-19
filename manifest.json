@@ -1,0 +1,31 @@
+﻿{
+  "manifest_version": 3,
+  "name": "TikTok Non Toxic",
+  "version": "1.0",
+  "description": "Tự động chặn người dùng bẩn trên Tik Tok by Hoang Mai Dong.",
+  "permissions": [
+    "tabs",
+    "scripting",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "host_permissions": [
+    "https://www.tiktok.com/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon.png",
+      "48": "icon.png",
+      "128": "icon.png"
+    }
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  }
+}
