@@ -1,6 +1,8 @@
 # Non-Toxic-Extention
 Tự động chặn người dùng bẩn trên Tik Tok
 -----------------------------------
+HIỆN TẠI REPO ĐÃ NGỪNG UPDATE USERNAME SPAM
+-----------------------------------
 Chức năng:
 Chặn người dùng theo list:
 https://hoangmaidong.com/acctikban
